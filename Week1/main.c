@@ -1,3 +1,15 @@
+/////// Practical Exercise 1
+#include <stdio.h>
+int main()
+{
+
+printf("Municipal Financial Management\n");
+printf("Welcome to Windhoek Municipality\n");
+
+return 0;
+}
+
+/////// Practical Exercise 2
 #include <stdio.h>
 int main()
 {
@@ -6,7 +18,7 @@ char mayor[50];
 int population;
 
 printf("Municipal Financial Management System\n");
-scanf("Welcome to Windhoek Municipality\n\n");
+printf("Welcome to Windhoek Municipality\n\n");
 
 printf("Enter Municipality Name: ");
 scanf("%49s", municipality);
